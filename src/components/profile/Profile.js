@@ -1,4 +1,5 @@
 import './Profile.css';
+import PropTypes from 'prop-types';
 import StatsList from './StatsList';
 export default function Profile({ avatar, username, tag, location, stats }) {
   return (
@@ -18,3 +19,10 @@ export default function Profile({ avatar, username, tag, location, stats }) {
     </div>
   );
 }
+Profile.propTypes = {
+  avatar: PropTypes.node,
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  stats: PropTypes.object,
+};

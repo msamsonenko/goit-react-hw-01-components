@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export default function Stat({ label, quantity }) {
   return (
     <li className="stats-item">
@@ -6,3 +7,8 @@ export default function Stat({ label, quantity }) {
     </li>
   );
 }
+
+Stat.propTypes = {
+  label: PropTypes.string,
+  quantity: PropTypes.number,
+};
