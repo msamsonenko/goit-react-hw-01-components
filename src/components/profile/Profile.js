@@ -1,3 +1,4 @@
+import './Profile.css';
 import StatsList from './StatsList';
 export default function Profile({ avatar, username, tag, location, stats }) {
   return (

@@ -1,18 +1,9 @@
+// import './normalize.css'
 import data from './profile/user.json';
 import Profile from './profile/Profile';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        textTransform: 'uppercase',
-        color: '#010101',
-      }}
-    >
+    <div>
       <Profile
         avatar={data.avatar}
         username={data.username}
