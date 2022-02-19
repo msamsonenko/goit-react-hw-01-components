@@ -1,0 +1,23 @@
+.transaction-history {
+  border-spacing: 0;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.transaction-header {
+  height: 50px;
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid rgba(102, 101, 101, 0.3);
+  background-color: rgb(80, 190, 181);
+}
+.transaction-item {
+  /* display: inline-block; */
+  height: 30px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid rgba(102, 101, 101, 0.3);
+}
+tr:nth-child(2n) {
+  background-color: rgb(230, 228, 228);
+}
